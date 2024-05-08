@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    /* text-align: center; */
+    margin: 20px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+}
