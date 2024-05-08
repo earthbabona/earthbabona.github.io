@@ -1,65 +1,65 @@
 const OverallForecast = {
-  Date: "ระหว่างวันที่ 7 – 13 พฤษภาคม พ.ศ. 2567",
+  Date: "ประจำวันที่ 8 พฤษภาคม 2567 17.00 น. ",
   OverallDescriptionThai:
-    "ในช่วงวันที่ 8 – 13 พ.ค. 67 แนวพัดสอบของลมตะวันออกเฉียงใต้และลมใต้ยังคงพัดปกคลุมประเทศไทยตอนบน ในขณะที่ประเทศไทยตอนบนยังคงมีอากาศร้อน ทำให้บริเวณดังกล่าวยังคงมีฝนฟ้าคะนอง กับมีลมกระโชกแรงบางแห่ง รวมทั้งมีฝนตกหนักบางพื้นที่\n                                สำหรับภาคใต้ ในช่วงวันที่ 7 - 13 พ.ค. 67 ลมตะวันออกเฉียงใต้พัดปกคลุมอ่าวไทย ภาคใต้ และทะเลอันดามัน ทำให้ภาคใต้มีฝนฟ้าคะนองและมีฝนตกหนักบางแห่ง \nประกอบกับในช่วง 9 – 11 พ.ค. 67 ลมตะวันออกเฉียงใต้ที่พัดปกคลุมอ่าวไทย ภาคใต้ และทะเลอันดามันมีกำลังแรงขึ้น ทำให้ภาคใต้มีฝนเพิ่มขึ้น",
+    "\tพยากรณ์อากาศ 24 ชั่วโมงข้างหน้า แนวพัดสอบของลมตะวันออกเฉียงใต้และลมใต้พัดปกคลุมภาคเหนือ และภาคกลางตอนบน ลักษณะเช่นนี้ทำให้บริเวณดังกล่าวมีฝนฟ้าคะนอง ลมกระโชกแรง และมีฝนตกหนักบางแห่ง ขอให้ประชาชนบริเวณภาคเหนือระวังอันตรายจากฝนฟ้าคะนอง ลมกระโชกแรง โดยหลีกเลี่ยงการอยู่ในที่โล่งแจ้ง ใต้ต้นไม้ใหญ่ สิ่งปลูกสร้าง และป้ายโฆษณาที่ไม่แข็งแรง สำหรับเกษตรกรควรเตรียมการป้องกันและระวังความเสียหายที่จะเกิดต่อผลผลิตทางการเกษตรและอันตรายต่อสัตว์เลี้ยงไว้ด้วย รวมทั้งระวังอันตรายจากฝนตกหนักและฝนที่ตกสะสมซึ่งอาจทำให้เกิดน้ำท่วมฉับพลัน และเพิ่มความระมัดระวังในการสัญจรผ่านบริเวณที่มีฝนฟ้าคะนองไว้ด้วย       สำหรับลมตะวันออกเฉียงใต้พัดปกคลุมทะเลอันดามัน ภาคใต้ และอ่าวไทย ทำให้ภาคใต้มีฝนฟ้าคะนองบางแห่ง ส่วนชาวเรือควรหลีกเลี่ยงการเดินเรือในบริเวณที่มีฝนฟ้าคะนองไว้ด้วย ฝุ่นละอองในระยะนี้: ภาคเหนือมีการสะสมของฝุ่นละออง/หมอกควันอยู่ในเกณฑ์ปานกลางถึงค่อนข้างสูง เนื่องจากลมที่พัดปกคลุมมีกำลังอ่อน และการระบายอากาศในบริเวณดังกล่าวอยู่ในเกณฑ์ที่ไม่ดี สำหรับภาคตะวันออกเฉียงเหนือ และภาคกลาง รวมทั้งกรุงเทพมหานครและปริมณฑลมีการสะสมของฝุ่นละออง/หมอกควันลดลงเนื่องจากมีฝนเพิ่มมากขึ้น",
   OverallDescriptionEnglish:
-    "During 8 – 13 May, the confluence of southeasterly and southerly winds prevails over the upper Thailand with thundershower, gusty winds and isolated heavy rain in the upper Thailand.   \n              During 7 – 13 May, the southeasterly winds prevail over the Gulf, the South and Andaman Sea with thundershower and heavy rain. Meanwhile, During 9 – 11 May, the southeasterly winds prevailing over the South is strengthening with more rain in the areas.",
+    "\tThe confluence of southeasterly and southerly winds occurs over the North and the upper Central thundershowers witih gust and isolated heavy rains in the areas. People in the North should stay safe from severe weather conditions by keeping off outdoor places, large trees and unsecured buildings and should beware of the heavy rain and accumulated rain that may be flashing floods overflows. \tAll transports take more caution during the phenomena. Farmers should prevent for crops damage and animals danger.\tThe southeasterly winds prevail over the Andaman Sea, the South and the Gulf with isolated thundershowers. All ships should proceed with caution and keep off thundershowers.",
   RegionForecast: [
     {
       RegionNameThai: "ภาคเหนือ",
       DescriptionThai:
-        "ในช่วงวันที่ 8 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ กับมีลมกระโชกแรงบางแห่ง รวมทั้งมีฝนตกหนักบางพื้นที่อุณหภูมิต่ำสุด 21 – 28 องศาเซลเซียส อุณหภูมิสูงสุด 36 – 39 องศาเซลเซียสลมตะวันออกเฉียงใต้ ความเร็ว 10 – 20 กม./ชม. ",
+        "อากาศร้อนกับมีฟ้าหลัวในตอนกลางวัน และมีอากาศร้อนจัดบางพื้นที่ โดยมีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ กับมีลมกระโชกแรง และมีฝนตกหนักบางแห่งบริเวณจังหวัดเชียงใหม่ เชียงราย ลำพูน พะเยา น่าน แพร่ อุตรดิตถ์ ตาก พิจิตร พิษณุโลก และเพชรบูรณ์ อุณหภูมิต่ำสุด 22-26 องศาเซลเซียส อุณหภูมิสูงสุด 35-40 องศาเซลเซียส ลมใต้ ความเร็ว 5-15 กม./ชม.",
       RegionNameEnglish: "North",
       DescriptionEnglish:
-        "During 8 – 13 May, scattered thundershower with gust and isolated heavy rains.Minimum temperature 21 – 28 °C. Maximum temperature 36 – 39 °C. Southeasterly winds 10 – 20 km/hr.",
+        "Day hot with haze. Isolated very hot. Scattered thundershowers with gusty wind and isolated heavy rains in Chiang Mai, Chiang Rai, Lamphun, Phayao, Nan, Phrae, Uttaradit, Tak, Phichit, Phitsanulok and Phetchabun.Minimum temperature 22-26 °C.  Maximum temperature 35-40 °C. Southerly winds 5-15 km/hr.",
     },
     {
       RegionNameThai: "ภาคตะวันออกเฉียงเหนือ",
       DescriptionThai:
-        "ในช่วงวันที่ 8 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ กับมีลมกระโชกแรงบางแห่ง รวมทั้งมีฝนตกหนักบางพื้นที่อุณหภูมิต่ำสุด 22 – 27 องศาเซลเซียส อุณหภูมิสูงสุด 35 – 38 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10 – 20 กม./ชม.",
+        "อากาศร้อนในตอนกลางวัน โดยมีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ ส่วนมากบริเวณจังหวัดเลย หนองคาย บึงกาฬ หนองบัวลำภู อุดรธานี สกลนคร ชัยภูมิ ขอนแก่น มหาสารคาม กาฬสินธ์ ร้อยเอ็ด นครราชสีมา บุรีรัมย์ และสุรินทร์อุณหภูมิต่ำสุด 24-27 องศาเซลเซียส อุณหภูมิสูงสุด 37-39 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10-20 กม./ชม.",
       RegionNameEnglish: "North East",
       DescriptionEnglish:
-        "During 8 – 13 May, scattered thundershower with gust and isolated heavy rainsMinimum temperature 22 – 27 °C. Maximum temperature 35 – 38 °C.Southeasterly winds 10 – 20 km/hr.",
+        "Day hot. Scattered thundershowers mostly in Loei, Nong Khai, Bueng Kan, Nong Bua Lamphu, Udon Thani, Sakon Nakhon, Chaiyaphum, Khon Kaen, Maha Sarakham, Kalasin, Roi Et, Nakhon Ratchasima, Buriram and Surin.Minimum temperature 24-27 °C. Maximum temperature 37-39 °C.  Southeasterly winds 10-20 km/hr.",
     },
     {
       RegionNameThai: "ภาคกลาง",
       DescriptionThai:
-        "ในช่วงวันที่ 8 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ กับมีลมกระโชกแรงบางแห่ง รวมทั้งมีฝนตกหนักบางพื้นที่อุณหภูมิต่ำสุด 24 – 29 องศาเซลเซียส อุณหภูมิสูงสุด 32 – 38 องศาเซลเซียส ลมใต้ ความเร็ว 10 – 20 กม./ชม.",
+        "อากาศร้อนในตอนกลางวัน และมีอากาศร้อนจัดบางพื้นที่ โดยมีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ กับมีลมกระโชกแรง และมีฝนตกหนักบางแห่งบริเวณจังหวัดนครสวรรค์ อุทัยธานี ชัยนาท ลพบุรี และกาญจนบุรี อุณหภูมิต่ำสุด 24-26 องศาเซลเซียส อุณหภูมิสูงสุด 38-40 องศาเซลเซียส ลมใต้ ความเร็ว 10-20 กม./ชม.",
       RegionNameEnglish: "Central",
       DescriptionEnglish:
-        "During 8 – 13 May, scattered thundershower with gust and isolated heavy rainsMinimum temperature 24 – 29 °C. Maximum temperature 32 – 38 °C.Southerly winds 10 – 20 km/hr.",
+        "Day hot. Isolated very hot. Scattered thundershowers with gusty wind and isolated heavy rains in Nakhon Sawan, Uthai Thani, Chainat, Lopburi and Kanchanaburi.Minimum temperature 24-26 °C. Maximum temperature 38-40 °C. Southerly winds 10-20 km/hr.",
     },
     {
       RegionNameThai: "ภาคตะวันออก",
       DescriptionThai:
-        "ในช่วงวันที่ 8 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ กับมีลมกระโชกแรงบางแห่ง รวมทั้งมีฝนตกหนักบางพื้นที่อุณหภูมิต่ำสุด 25 – 30 องศาเซลเซียส อุณหภูมิสูงสุด 33 – 37 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10 – 30 กม./ชม. ทะเลมีคลื่นต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตร",
+        "มีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ และมีฝนตกหนักบางแห่ง บริเวณจังหวัดนครนายก ฉะเชิงเทรา ชลบุรี ระยอง จันทบุรี และตราดอุณหภูมิต่ำสุด 24-27 องศาเซลเซียส อุณหภูมิสูงสุด 36-38 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10-30 กม./ชม. ทะเลมีคลื่นต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตร ",
       RegionNameEnglish: "East",
       DescriptionEnglish:
-        "During 8 – 13 May, scattered thundershower with gust and isolated heavy rainsMinimum temperature 25 – 30 °C. Maximum temperature 33 – 37 °C.Southeasterly winds 10 – 30 km/hr. Wave below 1 meter and above 1 meter in thundershowers.",
+        "Scattered thundershowers and isolated heavy rains in Nakhon Nayok, Chachoengsao, Chonburi, Rayong, Chanthaburi and Trat. Minimum temperature 24-27 °C. Maximum temperature 36-38 °C. Southeasterly winds 10-30 km/hr. Wave below 1 meter and above 1 meter high in thundershowers.",
     },
     {
       RegionNameThai: "ภาคใต้ฝั่งตะวันออก",
       DescriptionThai:
-        "ในช่วงวันที่ 7 – 8 พ.ค. และวันที่ 12 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ และมีฝนตกหนักบางแห่ง ลมตะวันออกเฉียงใต้ ความเร็ว 10 – 30 กม./ชม. ทะเลมีคลื่นต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตรในช่วงวันที่ 9 – 11 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 60 - 70 ของพื้นที่ และมีฝนตกหนักบางแห่งลมตะวันออกเฉียงใต้ ความเร็ว 15 – 30 กม./ชม. ทะเลมีคลื่นประมาณ 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตรอุณหภูมิต่ำสุด 23 – 28 องศาเซลเซียสอุณหภูมิสูงสุด 33 – 36 องศาเซลเซียส",
+        "อากาศร้อนในตอนกลางวัน โดยมีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ ส่วนมากบริเวณจังหวัดประจวบคีรีขันธ์ ชุมพร สุราษฎร์ธานี นครศรีธรรมราช พัทลุง และสงขลาอุณหภูมิต่ำสุด 23-25 องศาเซลเซียส อุณหภูมิสูงสุด 35-39 องศาเซลเซียสลมตะวันออกเฉียงใต้ ความเร็ว 10-30 กม./ชม.ทะเลมีคลื่นต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตร",
       RegionNameEnglish: "South East Coast",
       DescriptionEnglish:
-        "During 7 – 8 May and 12 – 13 May, scattered thundershowers and isolated heavy rains.Southeasterly winds 10 – 30 km/hr. Wave height below 1 meter and above 1 meter in thundershowers.During 9 – 11 May, scattered to fairly widespread thundershowers and isolated heavy rains.Southeasterly winds 15 – 30 km/hr. Wave height about 1 meter and above 1 meter in thundershowers.Minimum temperature 23 – 28 °C. Maximum temperature 33 – 36 °C. ",
+        "Day hot. Scattered thundershowers mostly in Prachuap Khiri Khan, Chumphon, Surat Thani, Nakhon Si Thammarat, Phatthalung and Songkhla.Minimum temperature 23-25 °C. Maximum temperature 35-39 °C.Southeasterly winds 10-30 km/hr.Wave below 1 meter and above 1 meter high in thundershowers.",
     },
     {
       RegionNameThai: "ภาคใต้ฝั่งตะวันตก",
       DescriptionThai:
-        "ในช่วงวันที่ 7 – 8 พ.ค. และวันที่ 12 – 13 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ และมีฝนตกหนักบางแห่ง ในช่วงวันที่ 9 – 11 พ.ค. 67 มีฝนฟ้าคะนองร้อยละ 60 - 70 ของพื้นที่ และมีฝนตกหนักบางแห่งอุณหภูมิต่ำสุด 26 – 28 องศาเซลเซียส อุณหภูมิสูงสุด 34 – 37 องศาเซลเซียสลมตะวันออกเฉียงใต้ ความเร็ว 10 – 30 กม./ชม. ทะเลมีคลื่นสูงต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตร",
+        "มีฝนฟ้าคะนอง ร้อยละ 40 ของพื้นที่ ส่วนมากบริเวณจังหวัดระนอง พังงา ภูเก็ต กระบี่ และตรัง อุณหภูมิต่ำสุด 24-26 องศาเซลเซียส อุณหภูมิสูงสุด 36-37 องศาเซลเซียสลมตะวันออกเฉียงใต้ ความเร็ว 10-30 กม./ชม. ทะเลมีคลื่นต่ำกว่า 1 เมตร บริเวณที่มีฝนฟ้าคะนองคลื่นสูงมากกว่า 1 เมตร",
       RegionNameEnglish: "South West Coast",
       DescriptionEnglish:
-        "During 7 – 8 May and 12 – 13 May, scattered thundershowers and isolated heavy rains.During 9 – 11 May, scattered to fairly widespread thundershowers and isolated heavy rains.Minimum temperature 26 – 28 °C. Maximum temperature 34 – 37 °C.Southeasterly winds 10 – 30 km/hr. Wave height below 1 meter and above 1 meter in thundershowers.",
+        "Scattered thundershowers mostly in Ranong, Phang Nga, Phuket, Krabi and Trang.Minimum temperature 24-26 °C. Maximum temperature 36-37 °C.Southeasterly winds 10-30 km/hr. Wave below 1 meter and above 1 meter high in thundershowers.",
     },
     {
       RegionNameThai: "กรุงเทพและปริมณฑล",
       DescriptionThai:
-        "ในช่วงวันที่ 8 – 13 พ.ค. 67  มีฝนฟ้าคะนองร้อยละ 40 - 60 ของพื้นที่ กับมีลมกระโชกแรงบางแห่งและมีฝนตกหนักบางพื้นที่อุณหภูมิต่ำสุด 22 – 29 องศาเซลเซียส อุณหภูมิสูงสุด 33 – 37 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10 – 25 กม./ชม. ",
+        "มีฝนฟ้าคะนอง ร้อยละ 30 ของพื้นที่ อุณหภูมิต่ำสุด 25-27 องศาเซลเซียส อุณหภูมิสูงสุด 36-38 องศาเซลเซียส ลมตะวันออกเฉียงใต้ ความเร็ว 10-30 กม./ชม. ",
       RegionNameEnglish: "Bangkok and Perimeters",
       DescriptionEnglish:
-        "During 8 – 13 May, scattered thundershower with gust and isolated heavy rainsMinimum temperature 22 – 29 °C. Maximum temperature 33 – 37 °C.Southeasterly winds 10 – 25 km/hr.  ",
+        "Isolated thundershowers.Minimum temperature 25-27 °C. Maximum temperature 36-38 °C. Southeasterly  winds 10-30 km/hr.",
     },
   ],
 };
