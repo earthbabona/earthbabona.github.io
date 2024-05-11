@@ -78,6 +78,30 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
+  const fetchForecastData = async () => {
+    const headers = {
+      accept: "application/json",
+      authorization: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImY5MzUyMzg5ZDYzMWQ3MDRiNWFjZjBiNmEyMmY0MGM5MzNhNzAyNTdjMjZkYjkzZGFkOTdiYThmYzEzYmI0OGE5ODAxN2ZjMzgwZTJjMjZmIn0.eyJhdWQiOiIyIiwianRpIjoiZjkzNTIzODlkNjMxZDcwNGI1YWNmMGI2YTIyZjQwYzkzM2E3MDI1N2MyNmRiOTNkYWQ5N2JhOGZjMTNiYjQ4YTk4MDE3ZmMzODBlMmMyNmYiLCJpYXQiOjE3MTU0MTIyNDgsIm5iZiI6MTcxNTQxMjI0OCwiZXhwIjoxNzQ2OTQ4MjQ4LCJzdWIiOiIzMTkwIiwic2NvcGVzIjpbXX0.d6JlRmkei0rmLiZEUPP84iVhAC9m21eVxOFFnT5QFK9CqxE3PSvl8NUERVf7RuN18zuSVfY4ZndrJMmnzt5JCScaZ0Q5vZCeT0CIOZjStHf-eulPEW2vtSThNJX5SdbChPl-AMtnboyZpZix6o34oCHx8gAMRxMSrBkZjm8Kh2F4KgzXj1uNIOoF_Jh2kiybgfN3Av3cjuqNWohZV0EB7l8glMBRqcUEMGhm5B_rwnt4oUJxPVeiEVQ0G5dAS37qW3E9VnqtTF5OtKGcNIMRmcF6A2zuVSDzI5TDB2uySWlEFxepbDkD5BlLvkTzKjpgJ2CZ0LUfthUvoexnael6B0Shi8xgx07jxzCwDpOTKrHCWd4W0LrQCLYw1NSzNhYzkFOjRPHafHCRc_glwOtWpVX0Rrvmc0aggLEPBiBL9hpJMbhQl33G5bcj3AcBjHO8arPo6UG-pTEGGYU2WNA9z9i3SQNwRhzNwo0qC49A3YIXRkQwhJC3kwb5zKZc-XTwx-EpN18hEL3lZZ3Rs0vUk9mpZ_pXGh7D75gbJxAURSzCwB1kjlVyKzJf9yzHkYJuskplbw2-obTSYw-Ra12QK8VKAHjbfpjUSQ98Qmo9uG-cFwYzq38ce7hmP9_TdaTpdE_IrbvuhVv2bAo75ewn1v8rfJPXI6HRYLz2HvePrs4",
+    }
+    const response = await fetch("https://data.tmd.go.th/nwpapi/v1/forecast/location/daily/place?province=สมุทรปราการ&amphoe=พระประแดง&tambon=สำโรงใต้&fields=tc_max,rh,rh,slp,psfc,rain,ws10m,wd10m,cloudlow,cloudmed,cloudhigh,swdown,cond&date=2024-05-11&duration=7", { headers });
+    console.log('response', response);
+    const data = await response.json();
+    return data;
+  };
+
+  const fetchForecastData7 = async () => {
+
+    const headers = {
+      'Access-Control-Allow-Origin': '*',
+    }
+   
+    // const response = await fetch("https://data.tmd.go.th/api/WeatherForecast7Days/v2/?uid=api&ukey=api12345&format=json");
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://data.tmd.go.th/api/WeatherForecast7Days/v2/?uid=api&ukey=api12345&format=json", { headers });
+    console.log('response', response);
+    const data = await response.json();
+    return data;
+  };
+
   async function fetchAndInitializeWeatherData() {
     const response = await fetch("data.json");
     const rawWeatherData = await response.json();
@@ -166,4 +190,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   wetherSummary();
   fetchAndInitializeWeatherData();
+  fetchForecastData();
+  fetchForecastData7();
 });
